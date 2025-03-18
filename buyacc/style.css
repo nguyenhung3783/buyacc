@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f3fafd;
+}
+
+form {
+    background-color: #FFF;
+    padding: 2em;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+h1 {
+    color: #4eb8dd;
+    text-transform: uppercase;
+}
+
+.inputGroup {
+    margin: 1em 0;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #217093;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4eb8dd;
+    border: none;
+    color: white;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.inputGroup4 a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #217093;
+}
+
+.icon-google {
+    margin-right: 5px;
+}
